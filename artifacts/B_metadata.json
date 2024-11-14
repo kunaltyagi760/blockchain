@@ -1,34 +1,35 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "",
+						"name": "message",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "text",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"constructor.sol": "B"
+			"super.sol": "B"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"constructor.sol": {
-			"keccak256": "0x905f92a5607568355e37cf5ea6c5c4c19e920a35f8e4f5cef04d1f8027e8cf92",
+		"super.sol": {
+			"keccak256": "0x59a20216e26330eea0fd86432bce1b7723e12a24dd6e56692989ec5ef38142b0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://857b0be6c1fc9d16b4fd3a6544456021fe45aa82a0df2ddaee37b77b548240c1",
-				"dweb:/ipfs/QmYpTqaCnZCygxAxNUKnBjK6JHGwAd2z2XqBi3dzbAVYcd"
+				"bzz-raw://f65661ed1c59fd0cb490eb1b5de5bdafe165ae64fbfd968af70e8c51d97c9beb",
+				"dweb:/ipfs/Qmc3nYyMSxqQfpSxPPUtpj2y7WeehiSzPy18pKwuH6wx37"
 			]
 		}
 	},

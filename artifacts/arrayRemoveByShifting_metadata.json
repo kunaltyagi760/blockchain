@@ -6,28 +6,40 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "message",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "Log",
-				"type": "event"
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "bar",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "test",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -46,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"super.sol": "D"
+			"arrayRemove.sol": "arrayRemoveByShifting"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -60,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"super.sol": {
-			"keccak256": "0x59a20216e26330eea0fd86432bce1b7723e12a24dd6e56692989ec5ef38142b0",
+		"arrayRemove.sol": {
+			"keccak256": "0x519487b19631d4264b71e156f08d220aafaa6b8fa2798602c933f265b7b484ec",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f65661ed1c59fd0cb490eb1b5de5bdafe165ae64fbfd968af70e8c51d97c9beb",
-				"dweb:/ipfs/Qmc3nYyMSxqQfpSxPPUtpj2y7WeehiSzPy18pKwuH6wx37"
+				"bzz-raw://6e370eef3c38768d81aa9f99c3d8fa7a588392415eef367806697c1f91d42a5c",
+				"dweb:/ipfs/QmQG19UWnapZAc2sURUdjSwzW81Sy4Qqp6c78EosZg1jSy"
 			]
 		}
 	},

@@ -1,18 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "name",
+				"name": "foo",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -20,20 +15,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "text",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -50,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"constructor.sol": "E"
+			"inheritance.sol": "E"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -64,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"constructor.sol": {
-			"keccak256": "0x905f92a5607568355e37cf5ea6c5c4c19e920a35f8e4f5cef04d1f8027e8cf92",
+		"inheritance.sol": {
+			"keccak256": "0xa92b991a18adf13c8b9bf67c96fde3e490a280b0c16afc8b7ef1a36c3c8a9c68",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://857b0be6c1fc9d16b4fd3a6544456021fe45aa82a0df2ddaee37b77b548240c1",
-				"dweb:/ipfs/QmYpTqaCnZCygxAxNUKnBjK6JHGwAd2z2XqBi3dzbAVYcd"
+				"bzz-raw://66808f61da087832f9a2aee879b50bdc4aa9554e02adbe2b126581ba80591ffc",
+				"dweb:/ipfs/QmSjx4BYCgjWcEqKs8W8hPqY8uwKBzpHUuur9XeRaHvKnj"
 			]
 		}
 	},

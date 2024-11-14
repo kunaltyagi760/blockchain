@@ -46,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"super.sol": "D"
+			"super.sol": "A"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
