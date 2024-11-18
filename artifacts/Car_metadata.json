@@ -6,57 +6,55 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_contract",
+						"name": "_addr",
 						"type": "address"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
 					}
 				],
-				"name": "setVars",
-				"outputs": [],
 				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "carAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "value",
+				"name": "model",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -76,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"delecate.sol": "A"
+			"createContract.sol": "Car"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -90,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"delecate.sol": {
-			"keccak256": "0xf0ca5af35d2dae5a09075e49b5270c4c4dc75bf95cc31d0d27a790ac0c989743",
+		"createContract.sol": {
+			"keccak256": "0x9fecbc2b9fb7fbbcd8a939c6ec6a7ada310208263ef588ece113fac067df421b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://42480369e6f096f1488de0e852af37ad0e7b8a00d027cf29ee82fd8e3ee92272",
-				"dweb:/ipfs/QmSLVLZ3qz1bxeBmG6Kya1Bi8Zfqo7752SCDk8wJKWX9Qp"
+				"bzz-raw://9a6a1d66797a29da70b696ac58883691640e5fccbd59343352b4ec2f960fcc32",
+				"dweb:/ipfs/QmNpwHWJ4wKYNNETY8x9dQJFhgufjMPvMaQm2Y7c8Ph77i"
 			]
 		}
 	},

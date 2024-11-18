@@ -6,47 +6,48 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "addr",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "address",
-						"name": "",
+						"name": "caller",
 						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"name": "Recieved",
+				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "fallback"
 			},
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_msg",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "setVars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
+				"name": "foo",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -54,8 +55,12 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -71,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"delecate.sol": "B"
+			"call.sol": "Recieve"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"delecate.sol": {
-			"keccak256": "0xf0ca5af35d2dae5a09075e49b5270c4c4dc75bf95cc31d0d27a790ac0c989743",
+		"call.sol": {
+			"keccak256": "0xc2c9ab018faf648495ec55463b810f31955e6dc545e0cc120b8b5d406abb2b86",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://42480369e6f096f1488de0e852af37ad0e7b8a00d027cf29ee82fd8e3ee92272",
-				"dweb:/ipfs/QmSLVLZ3qz1bxeBmG6Kya1Bi8Zfqo7752SCDk8wJKWX9Qp"
+				"bzz-raw://2a8891720da696781615d35090952e1e1b788e25c019bc92eb152b9ca1fe494f",
+				"dweb:/ipfs/QmTHdPvikjH5B9PojbKnkAtBiuGw3JwU1Qokj9tvKzHJSQ"
 			]
 		}
 	},

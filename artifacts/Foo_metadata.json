@@ -6,57 +6,43 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_owner",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_contract",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "setVars",
-				"outputs": [],
-				"stateMutability": "payable",
+				"name": "myFunc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "value",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -76,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"delecate.sol": "A"
+			"tryCatch.sol": "Foo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -90,12 +76,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"delecate.sol": {
-			"keccak256": "0xf0ca5af35d2dae5a09075e49b5270c4c4dc75bf95cc31d0d27a790ac0c989743",
+		"tryCatch.sol": {
+			"keccak256": "0x3f57599ada51d2325d00ee875dac622b84584d58f4b02e0ac05db32e17f36730",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://42480369e6f096f1488de0e852af37ad0e7b8a00d027cf29ee82fd8e3ee92272",
-				"dweb:/ipfs/QmSLVLZ3qz1bxeBmG6Kya1Bi8Zfqo7752SCDk8wJKWX9Qp"
+				"bzz-raw://f00cda682eedccbe0c5a7a0b648a0182e7512ba9af9d9adab2fb61501be2ade0",
+				"dweb:/ipfs/QmW1A2NXwPvra5homJFccTCVfzKtveRjuXYQHtWAZ6d13k"
 			]
 		}
 	},
